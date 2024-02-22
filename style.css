@@ -1,0 +1,88 @@
+/* Font */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+
+/* Body */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f0f0; /* Change to your desired background color */
+}
+
+/* Section */
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: 75px auto 0 auto; /* Adjust margin for top, bottom, left, and right */
+    background-color: #fff;
+    box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Game Title */
+.game--title {
+    padding-top: 20px;
+    color: #d61414; /* Change to your desired title color */
+}
+
+/* Game Container */
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 150px;
+    margin: 120px auto 10px auto; /* Adjust margin for top, bottom, left, and right */
+}
+
+/* Cell */
+.cell {
+    font-family: "Poppins", sans-serif;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333333; /* Change to your desired text color */
+}
+
+/* Button */
+button {
+    margin-bottom: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #d61414; /* Change to your desired button color */
+    cursor: pointer;
+}
+
+/* Button Hover */
+button:hover {
+    transition: 0.25s;
+    background-color: #d61414; /* Change to your desired button hover color */
+}
+.instructions--button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: #ffffff; /* Change to your desired color */
+}
+.tic-tac-toe-image {
+    position: absolute;
+    top: 250px; /* Adjust top position */
+    right: 50px; /* Adjust right position */
+    width: 400px; /* Adjust the width of the image */
+}
+.tic-tac-toe-image1 {
+    position: absolute;
+    top: 250px; /* Adjust top position */
+    right: 1000px; /* Adjust right position */
+    width: 400px; /* Adjust the width of the image */
+}
